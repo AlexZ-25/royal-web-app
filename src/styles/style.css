@@ -1,0 +1,24 @@
+.test{
+    /* margin-top: 3%; */
+    display: block;
+    text-align: center;
+}
+
+.oscurecerImagen{
+    filter: brightness(50%);
+    background: center;
+}
+
+.testA{
+    position: relative;
+    top: 300px;
+    color: #fff;
+    z-index: 1;
+}
+
+.buttonMenu{
+    position: relative;
+    top: 320px;
+    color: #fff;
+    z-index: 1;
+}
