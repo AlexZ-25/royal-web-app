@@ -12,6 +12,7 @@ import Menu from "../pages/Menu";
 
 // Components
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 const AppRouter = () => {
   return (
@@ -23,6 +24,7 @@ const AppRouter = () => {
         {/* Dirigir todo lo que sea diferente hacia la pantalla principal */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

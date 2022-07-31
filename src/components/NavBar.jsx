@@ -1,14 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import whatsapp from "./../images/whatsapp.png";
+
+// Images
+import Whatsapp from "./../images/whatsapp.png";
 
 const NavBar = () => {
   return (
     // Sistema de navegacion
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{backgroundColor: '#289906'}}>
       <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+          SUSHI ROYAL
         </a>
         <button
           className="navbar-toggler"
@@ -53,8 +55,8 @@ const NavBar = () => {
         </div>
         <form className="form-inline">
           <span className="me-2">Haz tu pedido</span>
-          <a href="https://wa.me/526672210860" target="_blank">
-            <img src={whatsapp} alt="whatsapp" height="35" />
+          <a href="https://wa.me/526672309535" target="_blank">
+            <img src={Whatsapp} alt="whatsapp" height="35" />
           </a>
         </form>
       </div>

@@ -1,0 +1,17 @@
+[
+    {   
+        "nombre": "Guamuchilito",
+        "descripcion": "Alga, camaron y tocino",
+        "imagen": "./../images/sushi.jpg"
+    },
+    {   
+        "nombre": "Blankito",
+        "descripcion": "Alga, camaron y tocino",
+        "imagen": "./../images/sushi.jpg"
+    },
+    {   
+        "nombre": "Toka",
+        "descripcion": "Alga, camaron y tocino",
+        "imagen": "./../images/sushi.jpg"
+    }
+]

@@ -14,9 +14,9 @@ const Cards = (props) => {
           <p className="card-text">
             {props.descr}
           </p>
-          <a href="#" className="btn btn-primary">
+          {/* <a href="#" className="btn btn-primary">
             Go somewhere
-          </a>
+          </a> */}
         </div>
       </div>
     </>
