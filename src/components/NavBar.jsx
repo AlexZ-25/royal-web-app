@@ -25,7 +25,7 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
-            <li className="nav-item active">
+            <li className="nav-item active" key="0">
               <NavLink
                 to="/menu"
                 aria-current="page"
@@ -36,19 +36,14 @@ const NavBar = () => {
                 Menú
               </NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" key="1">
               <a className="nav-link" href="#">
                 Ubicación
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" key="2">
               <a className="nav-link" href="#">
                 Contacto
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" href="#">
-                Disabled
               </a>
             </li>
           </ul>
