@@ -7,9 +7,12 @@ import Whatsapp from "./../images/whatsapp.png";
 const NavBar = () => {
   return (
     // Sistema de navegacion
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{backgroundColor: '#289906'}}>
+    <nav
+      className="navbar navbar-expand-lg navbar-light fixed-top"
+      style={{ backgroundColor: "#289906" }}
+    >
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           SUSHI ROYAL
         </a>
         <button
@@ -37,13 +40,13 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li className="nav-item" key="1">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="/ubicacion">
                 Ubicación
               </a>
             </li>
             <li className="nav-item" key="2">
-              <a className="nav-link" href="#">
-                Contacto
+              <a className="nav-link" href="/reserva">
+                Reserva aquí
               </a>
             </li>
           </ul>

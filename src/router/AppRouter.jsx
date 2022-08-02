@@ -9,6 +9,8 @@ import {
 // Pages
 import Main from "../pages/Main";
 import Menu from "../pages/Menu";
+import Ubicacion from "../pages/Ubicacion";
+import Reserva from "../pages/Reserva";
 
 // Components
 import NavBar from "../components/NavBar";
@@ -20,7 +22,9 @@ const AppRouter = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Main />} />
-          <Route path="/menu" element={<Menu />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/ubicacion" element={<Ubicacion />} />
+        <Route path="/reserva" element={<Reserva />} />
         {/* Dirigir todo lo que sea diferente hacia la pantalla principal */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
